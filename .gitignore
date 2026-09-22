@@ -1,0 +1,12 @@
+# Cursor IDE files
+.cursor/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# local preview server
+.serve.js
+
+# temporary/debug working files (agent scratch: CDP scripts, screenshots, splices)
+/_*
