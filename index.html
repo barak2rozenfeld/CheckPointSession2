@@ -236,19 +236,38 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;heigh
 .same-pills span{font-size:11px;font-weight:700;background:#fff;border:1px solid var(--border);border-radius:14px;padding:3px 10px;color:var(--mid);} .same-pills span b{color:var(--text);}
 /* ── S3b: 9000 positioning / where it fits ── */
 .posgrid{display:grid;grid-template-columns:1fr 336px;gap:14px;flex:1;min-height:0;}
-.arch{display:flex;flex-direction:column;justify-content:center;flex:1;min-height:0;background:var(--off);border:1px solid var(--border);border-radius:8px;padding:14px 16px;}
-.arch .node{border-radius:9px;padding:9px 14px;text-align:center;}
+.arch{display:flex;flex-direction:column;justify-content:center;flex:1;min-height:0;background:var(--off);border:1px solid var(--border);border-radius:8px;padding:10px 14px;}
+.arch .node{border-radius:9px;padding:7px 12px;text-align:center;}
 .arch .net{background:#fff;border:1px solid var(--border);}
-.arch .net b{font-size:13px;} .arch .net small{display:block;font-size:10.5px;color:var(--light);margin-top:2px;line-height:1.3;}
-.arch .gw{background:var(--dark);color:#fff;border:2px solid var(--primary);box-shadow:0 8px 22px rgba(228,12,91,.22);}
-.arch .gw b{font-family:var(--font-num);font-size:19px;color:#fff;letter-spacing:.02em;} .arch .gw .sub2{font-size:10.5px;color:rgba(255,255,255,.7);margin:2px 0 6px;}
-.arch .gw .r{font-size:10px;color:#fff;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;}
-.arch .gw .r span{background:rgba(255,255,255,.12);border-radius:10px;padding:2px 9px;}
-.arch .flow{display:flex;flex-direction:column;align-items:center;color:var(--light);font-size:9.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;gap:2px;padding:5px 0;}
-.arch .flow i{width:2px;height:10px;background:var(--border);display:block;}
-.arch .zones{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
-.arch .zone{background:#fff;border:1px solid var(--border);border-top:3px solid var(--teal);border-radius:8px;padding:8px 6px;text-align:center;}
-.arch .zone b{display:block;font-size:11.5px;} .arch .zone small{font-size:9px;color:var(--light);line-height:1.25;display:block;margin-top:2px;}
+.arch .net b{font-size:12.5px;} .arch .net small{display:block;font-size:10px;color:var(--light);margin-top:1px;line-height:1.25;}
+.arch .ops{background:#fff;border:1px solid var(--border);border-radius:8px;padding:7px 10px 8px;}
+.arch .ops .olbl{font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--light);margin-bottom:6px;display:flex;align-items:center;justify-content:space-between;gap:8px;}
+.arch .ops .olbl em{font-style:normal;font-size:9px;letter-spacing:0;text-transform:none;font-weight:700;color:var(--amber);background:#fff1e6;border-radius:8px;padding:1px 7px;}
+.arch .ops .otools{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;}
+.arch .ops .otools span{background:var(--off);border:1px solid var(--border);border-radius:6px;padding:5px 7px;text-align:center;}
+.arch .ops .otools b{display:block;font-size:11px;font-weight:800;color:var(--text);} .arch .ops .otools small{display:block;font-size:9px;color:var(--light);line-height:1.25;margin-top:1px;}
+.arch .hapair{display:grid;grid-template-columns:1fr 52px 1fr;gap:8px;align-items:stretch;}
+.arch .ha{background:var(--dark);color:#fff;border:2px solid var(--primary);border-radius:9px;padding:8px 10px;text-align:center;box-shadow:0 6px 18px rgba(228,12,91,.2);}
+.arch .ha.sb{border-color:rgba(255,255,255,.28);box-shadow:none;background:#1f0c1b;}
+.arch .ha em{display:inline-block;font-style:normal;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--primary);color:#fff;border-radius:8px;padding:1px 7px;margin-bottom:4px;}
+.arch .ha.sb em{background:rgba(255,255,255,.16);color:rgba(255,255,255,.8);}
+.arch .ha b{display:block;font-family:var(--font-num);font-size:16px;color:#fff;letter-spacing:.02em;line-height:1.1;}
+.arch .ha small{display:block;font-size:9.5px;color:rgba(255,255,255,.65);margin-top:3px;line-height:1.25;}
+.arch .hasync{display:flex;align-items:center;justify-content:center;color:var(--mid);font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-align:center;line-height:1.2;}
+.arch .hafoot{margin-top:6px;background:#fff;border:1px solid var(--border);border-radius:7px;padding:5px 10px;font-size:11px;color:var(--mid);line-height:1.35;text-align:center;font-weight:600;}
+.arch .hafoot b{color:var(--text);font-family:var(--font-num);font-size:12.5px;}
+.arch .flow{display:flex;flex-direction:column;align-items:center;color:var(--light);font-size:9px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;gap:1px;padding:3px 0;}
+.arch .flow i{width:2px;height:7px;background:var(--border);display:block;}
+.arch .zones{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;}
+.arch .zone{background:#fff;border:1px solid var(--border);border-top:3px solid var(--teal);border-radius:8px;padding:6px 5px;text-align:center;}
+.arch .zone b{display:block;font-size:11px;} .arch .zone small{font-size:8.5px;color:var(--light);line-height:1.2;display:block;margin-top:1px;}
+.score{display:flex;align-items:stretch;background:var(--dark);color:#fff;border-radius:8px;overflow:hidden;flex-shrink:0;}
+.score .ask{padding:9px 14px;width:248px;flex-shrink:0;display:flex;flex-direction:column;justify-content:center;background:var(--primary);}
+.score .ask b{font-size:13.5px;font-weight:800;line-height:1.25;} .score .ask small{display:block;font-size:9.5px;font-weight:600;opacity:.9;margin-top:3px;}
+.score .ax{flex:1;padding:8px 12px;border-left:1px solid rgba(255,255,255,.12);display:flex;flex-direction:column;justify-content:center;min-width:0;}
+.score .ax .n{font-size:9px;letter-spacing:.1em;font-weight:800;text-transform:uppercase;color:var(--pink-soft);}
+.score .ax .t{font-size:11.5px;font-weight:700;line-height:1.3;margin-top:2px;} .score .ax .t b{color:#fff;}
+#s8 .score{margin-top:6px;}
 
 /* ═══ S5 · prevention ═══ */
 .s5grid{display:grid;grid-template-columns:1fr 380px;gap:14px;flex:1;min-height:0;}
@@ -362,7 +381,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;heigh
 .s8more{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;font-size:11px;color:var(--mid);font-weight:600;}
 .s8more .lbl{font-size:9.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--light);}
 .s8more span.p{background:#fff;border:1px solid var(--border);border-radius:12px;padding:3px 9px;font-weight:700;} .s8more span.p b{color:var(--text);}
-#s8 h1.title{margin-bottom:6px;} #s8 .thread{margin-top:6px!important;}
+#s8 h1.title{margin-bottom:6px;} #s8 .score{margin-top:6px;}
 .tl{display:flex;align-items:stretch;gap:0;position:relative;flex-shrink:0;}
 .tl .ms{flex:1;text-align:center;position:relative;padding-top:18px;cursor:pointer;}
 .tl .ms::before{content:'';position:absolute;top:7px;left:0;right:0;height:3px;background:#e2dde0;}
@@ -433,7 +452,7 @@ table.tb{width:100%;border-collapse:collapse;font-size:12px;}
 table.tb th{font-size:10px;letter-spacing:.06em;color:var(--light);text-align:left;padding:6px 10px;border-bottom:2px solid var(--border);font-weight:800;text-transform:uppercase;}
 table.tb td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:middle;line-height:1.35;}
 table.tb td:first-child{font-weight:800;color:var(--mid);}
-#a1 table.tb td{padding:12px 10px;font-size:12.5px;} #a1 table.tb .n{font-size:14px;}
+#a1 table.tb td{padding:8px 10px;font-size:12px;} #a1 table.tb .n{font-size:13.5px;}
 table.tb .n{font-family:var(--font-num);font-weight:800;white-space:nowrap;font-size:13px;}
 table.tb td.win{background:#f0f9f4;} table.tb td.lose{background:#fff5f8;} table.tb td.tgt{background:#fff7ea;}
 table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;}
@@ -601,7 +620,7 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
 <!-- ═══════════ 4 · THE 9000 IN YOUR NETWORK (positioning) ═══════════ -->
 <section class="slide" data-ch="2" id="s3b">
   <div class="topbar"><div class="brand"><img src="checkpoint-logo.PNG" alt="CP"><span class="sep"></span><h2>The 9000 in your network</h2></div>
-    <div class="tags"><span class="tag pink">Perimeter gateway</span><span class="tag teal">Campus → data-center edge</span><span class="tag purple">One platform</span></div></div>
+    <div class="tags"><span class="tag pink">Perimeter gateway</span><span class="tag teal">2RU HA pair</span><span class="tag purple">Ops plane separate</span></div></div>
   <div class="rail"></div>
   <div class="body">
     <div class="eyebrow">The platform · where it fits</div>
@@ -610,9 +629,22 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
       <div class="arch">
         <div class="node net"><b>The internet</b><small>Users, partners, SaaS. And the threats that ride with the traffic.</small></div>
         <div class="flow"><i></i>Inbound + outbound<i></i></div>
-        <div class="node gw"><b>Quantum 9000</b><div class="sub2">Perimeter gateway, deployed as a high-availability pair</div>
-          <div class="r"><span>Threat prevention</span><span>Access control</span><span>Segmentation</span></div></div>
+        <div class="ops">
+          <div class="olbl">Operations plane <em>Priced and licensed separately</em></div>
+          <div class="otools">
+            <span><b>SmartConsole</b><small>Policy · objects · one rule base</small></span>
+            <span><b>SmartEvent</b><small>Logs · correlation · reports</small></span>
+            <span><b>Management API</b><small>Automation · your toolchain</small></span>
+          </div>
+        </div>
         <div class="flow"><i></i>One policy · one console<i></i></div>
+        <div class="hapair">
+          <div class="ha"><em>Active</em><b>Quantum 9000</b><small>1RU · full prevention in-line</small></div>
+          <div class="hasync">↔ sync</div>
+          <div class="ha sb"><em>Standby</em><b>Quantum 9000</b><small>1RU · ready to take over</small></div>
+        </div>
+        <div class="hafoot"><b>2 × 1RU = 2RU</b> for a protected site. Two appliances, Active and Standby — <b>not a 2RU chassis</b>.</div>
+        <div class="flow"><i></i>Campus · HQ · data-center edge<i></i></div>
         <div class="zones">
           <div class="zone"><b>Campus</b><small>1,000 to 10,000 users</small></div>
           <div class="zone"><b>HQ edge</b><small>Core site, north-south</small></div>
@@ -621,18 +653,18 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
         </div>
       </div>
       <div class="solve">
-        <div class="row"><div class="ic">6</div><div><h4>One series, six 1RU models</h4><p>From a large branch to the data-center edge, <b>one GAiA image and one SmartConsole</b>. You size the box to the site, not the site to the box.</p></div></div>
-        <div class="row"><div class="ic g">TP</div><div><h4>Built for full threat prevention</h4><p>Line-rate inspection with <b>1.85 μs latency</b> on the upper models, high interface density, and active-active clustering. The perimeter stays fast with every engine on.</p></div></div>
-        <div class="row"><div class="ic t">↗</div><div><h4>Scales without a forklift</h4><p>Grow the same policy from one site to a <b>Maestro cluster at 300 Gbps</b>. Consolidate campus, cloud and remote users on one platform.</p></div></div>
-        <div class="same-pills"><span>Throughput under <b>full TP</b></span><span><b>1.85 μs</b> latency</span><span><b>HA</b> and clustering</span><span>Interface density</span><span>Unified management</span><span>Lowest <b>TCO per RU</b></span></div>
+        <div class="row"><div class="ic">2RU</div><div><h4>High availability is a pair, not a taller box</h4><p>Each 9000 is <b>1RU</b>. A resilient perimeter is two of them, Active and Standby: <b>2RU total</b>. Competing appliances at this tier are 3RU to 5U each — 6RU to 10U as a pair.</p></div></div>
+        <div class="row"><div class="ic p">Ops</div><div><h4>Management sits around the gateway, not inside the SKU</h4><p><b>SmartConsole, SmartEvent and the Management API</b> run the pair as one object. Management and software licenses are <b>priced and arranged separately</b> from the appliance.</p></div></div>
+        <div class="row"><div class="ic t">↗</div><div><h4>Outgrow the pair without a forklift</h4><p>The default is Active/Standby. When the pair is no longer enough, add <b>Maestro</b> to 300 Gbps. Same GAiA, same policy, same console.</p></div></div>
+        <div class="same-pills"><span>Throughput under <b>full TP</b></span><span><b>1.85 μs</b> latency</span><span><b>2 × 1RU</b> HA pair</span><span>Lowest <b>TCO per RU</b></span></div>
       </div>
     </div>
     <div class="thread" style="margin-top:10px">
-      <div class="k">3 edges<small>campus · HQ · DC</small></div><div class="sep"></div>
-      <div class="t">Wherever your perimeter sits, the 9000 enforces full prevention in-line. <b>One platform for the whole edge.</b></div>
+      <div class="k">2RU<small>HA pair</small></div><div class="sep"></div>
+      <div class="t">Wherever your perimeter sits, the 9000 enforces full prevention in-line. <b>Two 1RU appliances, Active and Standby — not one 2RU chassis.</b></div>
     </div>
     <div class="src box" style="margin-top:6px">
-      <span class="t">Sources &amp; assumptions</span> <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Check Point Appliance Comparison Chart 2026</a> · <a href="https://www.checkpoint.com/quantum/quantum-9000-series/" target="_blank">Quantum 9000 Series page</a> · <a href="https://www.checkpoint.com/quantum/maestro-hyperscale-network-security/" target="_blank">Quantum Maestro</a> · <b>Assumptions:</b> 1.85 μs latency is the datasheet figure for the 9400 / 9700 / 9800 · 300 Gbps is the Maestro NGTP maximum for a 9800 cluster · the campus / HQ / data-center-edge placement is a reference topology, your deployment may differ · the "1,000 to 10,000 users" range is a sizing estimate, not a Check Point figure
+      <span class="t">Sources &amp; assumptions</span> <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Check Point Appliance Comparison Chart 2026</a> · <a href="https://www.checkpoint.com/quantum/quantum-9000-series/" target="_blank">Quantum 9000 Series page</a> · <a href="https://www.checkpoint.com/quantum/maestro-hyperscale-network-security/" target="_blank">Quantum Maestro</a> · <b>Assumptions:</b> 2RU is two 1RU appliances in an Active/Standby ClusterXL pair, not a 2RU chassis · competitor HA footprint uses published form factors (FortiGate 6500F 3RU, PA-5450 5U) × 2 · 1.85 μs latency is the datasheet figure for the 9400 / 9700 / 9800 · 300 Gbps is the Maestro NGTP maximum for a 9800 cluster · SmartConsole, SmartEvent and Management API are separate management SKUs, not bundled into the appliance list price · the campus / HQ / data-center-edge placement is a reference topology · the "1,000 to 10,000 users" range is a sizing estimate, not a Check Point figure
     </div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
@@ -652,21 +684,21 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
         <div class="ch"><span class="dotc"></span>Six sizes, one software. Click a model</div>
         <div class="stairs" id="stairs"></div>
         <div class="mdet" id="mdet"></div>
-        <div class="same-pills"><span>Same <b>GAiA OS</b></span><span>Same <b>SmartConsole</b></span><span>Same <b>Software Blades</b></span><span><b>1RU</b> across the line</span><span><b>FIPS 140-2 · CC EAL4+</b></span><span>Maestro clustering to <b>300 Gbps</b></span></div>
+        <div class="same-pills"><span>Same <b>GAiA OS</b></span><span>Same <b>SmartConsole</b></span><span>Same <b>Software Blades</b></span><span>Each box is <b>1RU</b></span><span>HA pair = <b>2 × 1RU</b></span><span><b>FIPS 140-2 · CC EAL4+</b></span></div>
       </div>
       <div class="solve">
-        <div class="row"><div class="ic">1RU</div><div><h4>Data-center performance in one rack unit</h4><p>Up to <b>25 Gbps of full Threat Prevention</b> and <b>1.85 μs latency</b> in a single 1RU. Competing boxes at this tier are 3RU to 5U.</p></div></div>
+        <div class="row"><div class="ic">2RU</div><div><h4>1RU per appliance. 2RU for a protected site.</h4><p>Up to <b>25 Gbps of full Threat Prevention</b> and <b>1.85 μs latency</b> in a single 1RU. HA is two of those boxes, Active and Standby — <b>not a 2RU chassis</b>. Competing appliances at this tier are 3RU to 5U each.</p></div></div>
         <div class="row"><div class="ic g">AI</div><div><h4>Prevention-first, powered by ThreatCloud AI</h4><p>Blocks in-line, rather than alerting after the fact. Every attack stopped anywhere in the install base becomes a protection for you within minutes.</p></div></div>
         <div class="row"><div class="ic p">1</div><div><h4>One console for policy, logs and threat intel</h4><p><b>SmartConsole</b> manages this box, your branches, your cloud gateways and your Maestro cluster from the same rule base.</p></div></div>
         <div class="row"><div class="ic t">↗</div><div><h4>Grows with you</h4><p>Six models share one software image. Scale out with <b>Maestro</b> to 300 Gbps, and, as the next slides show, scale up inside the box you already own.</p></div></div>
       </div>
     </div>
     <div class="thread" style="margin-top:10px">
-      <div class="k">6<small>models</small></div><div class="sep"></div>
-      <div class="t"><b>Match the model to the site:</b> a large branch, a campus, an HQ, or the data-center edge. One software image and one console across all six.</div>
+      <div class="k">2 × 1RU<small>HA pair</small></div><div class="sep"></div>
+      <div class="t"><b>Match the model to the site.</b> Each appliance is 1RU. The protected site is two of them, Active and Standby — not a 2RU chassis. One software image and one console across all six.</div>
     </div>
     <div class="src box" style="margin-top:6px">
-      <span class="t">Sources &amp; assumptions</span> <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Appliance Comparison Chart 2026</a> · <a href="https://www.checkpoint.com/quantum/quantum-9000-series/" target="_blank">Quantum 9000 Series page</a> · <a href="https://www.checkpoint.com/infinity/threatcloud-ai/" target="_blank">ThreatCloud AI</a> · <b>Assumptions:</b> Threat Prevention = Enterprise Testing Conditions, Firewall = lab · latency 1.85 μs is the datasheet figure for 9400/9700/9800 · "users" per model is a sizing estimate at ~1 to 2 Mbps per user and 70% load, not a Check Point figure · FIPS 140-2 and EAL4+ per current certifications, FIPS 140-3 status to be confirmed with the compliance team
+      <span class="t">Sources &amp; assumptions</span> <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Appliance Comparison Chart 2026</a> · <a href="https://www.checkpoint.com/quantum/quantum-9000-series/" target="_blank">Quantum 9000 Series page</a> · <a href="https://www.checkpoint.com/infinity/threatcloud-ai/" target="_blank">ThreatCloud AI</a> · <b>Assumptions:</b> Threat Prevention = Enterprise Testing Conditions, Firewall = lab · latency 1.85 μs is the datasheet figure for 9400/9700/9800 · "users" per model is a sizing estimate at ~1 to 2 Mbps per user and 70% load, not a Check Point figure · 2RU is two 1RU appliances in an Active/Standby pair, not a 2RU chassis · FIPS 140-2 and EAL4+ per current certifications, FIPS 140-3 status to be confirmed with the compliance team
     </div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
@@ -739,7 +771,7 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
               <div class="blade">Firewall<small>L3/4 · NAT</small></div><div class="blade">IPS<small>same rule base</small></div><div class="blade">App Control · URL<small>same rule base</small></div><div class="blade">Threat Emulation<small>sandbox, in-line</small></div>
               <div class="blade">Anti-Bot · AV<small>ThreatCloud AI</small></div><div class="blade">Remote access<small>same identity</small></div><div class="blade">CloudGuard<small>same console</small></div><div class="blade">Harmony<small>users · mobile</small></div>
             </div>
-            <div class="ufo"><span>One object model</span><span>One audit trail</span><span>One vendor to hold accountable</span><span>One team can run it</span></div>
+            <div class="ufo"><span>One object for the HA pair</span><span>One audit trail</span><span>One vendor to hold accountable</span><span>One team can run it</span></div>
           </div>
         </div>
       </div>
@@ -771,7 +803,7 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
     <h1 class="title">×4 performance. Same box. <span class="hl">Just add a card.</span></h1>
     <div class="feat">
       <div class="box9800">
-        <div class="hd"><span>Quantum 9700 / 9800 · 1RU · four parts inside the box</span><span style="color:#6fe3a1">The card drops into the empty slot. GAiA, your policy and SmartConsole do not change</span></div>
+        <div class="hd"><span>Quantum 9700 / 9800 · each box is 1RU · HA is two boxes, 2RU total</span><span style="color:#6fe3a1">The card drops into the empty slot. GAiA, your policy and SmartConsole do not change</span></div>
         <div class="chass">
           <div class="crow">
             <div class="clbl"><em>Today</em><span>The 9800 as it ships</span><b>~10 <small>Gbps full TP + TLS</small></b></div>
@@ -802,17 +834,17 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
         <div class="gauges2">
           <div class="g"><div class="l">Full TP + TLS</div><div class="v"><s>10</s><em>→</em><u>~40</u></div><div class="n">Gbps · PoC target</div></div>
           <div class="g"><div class="l">Full Threat Prevention</div><div class="v"><s>25</s><em>→</em><u>~60</u></div><div class="n">Gbps · target</div></div>
-          <div class="g"><div class="l">TP + TLS per rack unit</div><div class="v"><s>10</s><em>→</em><u>40</u></div><div class="n">vs Fortinet ~17 · Palo Alto ~18</div></div>
-          <div class="g"><div class="l">Your upgrade path</div><div class="v" style="font-size:14px;white-space:nowrap"><s>new box</s><em>→</em><u>a card</u></div><div class="n">same 1RU · same support contract</div></div>
+          <div class="g"><div class="l">TP + TLS per 1RU box</div><div class="v"><s>10</s><em>→</em><u>40</u></div><div class="n">vs Fortinet ~17 · Palo Alto ~18 · HA pair is 2 of these</div></div>
+          <div class="g"><div class="l">Protected-site footprint</div><div class="v" style="font-size:18px;white-space:nowrap"><u>2RU</u></div><div class="n">vs Fortinet HA 6RU · Palo Alto HA 10U</div></div>
         </div>
       </div>
     </div>
     <div class="thread" style="margin-top:10px">
       <div class="k">×4<small>TP + TLS</small></div><div class="sep"></div>
-      <div class="t">A field upgrade, not a forklift. <b>Full inspection on all of your encrypted traffic, in the rack unit you already own.</b></div>
+      <div class="t">A field upgrade, not a forklift. <b>Full inspection on all of your encrypted traffic, in the 1RU you already own — 2RU for the HA pair, not a taller chassis.</b></div>
     </div>
     <div class="src box" style="margin-top:6px">
-      <span class="t">Sources &amp; assumptions</span> <a href="https://docs.nvidia.com/networking/display/bluefield3dpu" target="_blank">NVIDIA BlueField-3 datasheet</a> · <a href="https://www.checkpoint.com/press-releases/check-point-redefines-ai-security-for-enterprises-with-ai-cloud-protect-powered-by-nvidia-bluefield/" target="_blank">Check Point AI Factory Firewall on BlueField (PR)</a> · Check Point Appliance Comparison Chart 2026 · FortiGate 6500F and PA-5450 datasheets · <b>Assumptions:</b> the card is a <b>roadmap proposal, not a shipping SKU</b> · "~40" and "~60" are lab-validation targets for a PoC (TP + TLS range 35 to 50), not measured numbers · ×4 and not ×10 because policy and App Control stay on the x86 · competitor TLS throughput is estimated at ~50% of their Threat Prevention figure and normalized per rack unit (6500F = 3RU, PA-5450 = 5U) · the four parts are a schematic of the product, not a board diagram
+      <span class="t">Sources &amp; assumptions</span> <a href="https://docs.nvidia.com/networking/display/bluefield3dpu" target="_blank">NVIDIA BlueField-3 datasheet</a> · <a href="https://www.checkpoint.com/press-releases/check-point-redefines-ai-security-for-enterprises-with-ai-cloud-protect-powered-by-nvidia-bluefield/" target="_blank">Check Point AI Factory Firewall on BlueField (PR)</a> · Check Point Appliance Comparison Chart 2026 · FortiGate 6500F and PA-5450 datasheets · <b>Assumptions:</b> the card is a <b>roadmap proposal, not a shipping SKU</b> · "~40" and "~60" are lab-validation targets for a PoC (TP + TLS range 35 to 50), not measured numbers · ×4 and not ×10 because policy and App Control stay on the x86 · competitor TLS throughput is estimated at ~50% of their Threat Prevention figure and normalized per 1RU of a single appliance (6500F = 3RU, PA-5450 = 5U) · HA footprint assumes Active/Standby pairs (Check Point 2×1RU = 2RU, Fortinet 2×3RU = 6RU, Palo Alto 2×5U = 10U), not a 2RU chassis · the four parts are a schematic of the product, not a board diagram
     </div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
@@ -853,9 +885,11 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
       </div>
     </div>
     <div class="s8more"><span class="lbl">And the same slot also carries</span><span class="p"><b>Post-quantum crypto</b> as a firmware update</span><span class="p"><b>On-box AI</b> on the DPU's 16 Arm cores</span><span class="p">Neither taxes the CPU that runs your policy</span></div>
-    <div class="thread" style="margin-top:8px">
-      <div class="k">$37K<small>vs $88K idle</small></div><div class="sep"></div>
-      <div class="t">Investment protection. <b>Cloud-like elasticity, on hardware you own.</b></div>
+    <div class="score">
+      <div class="ask"><b>Start with Check Point. Let your scorecard decide.</b><small>Security · operations · total cost</small></div>
+      <div class="ax"><div class="n">Security</div><div class="t">99%+ prevention, full TLS inspection, <b>on every encrypted session</b></div></div>
+      <div class="ax"><div class="n">Operations</div><div class="t">One console. One policy. <b>2RU HA pair</b>, Active and Standby</div></div>
+      <div class="ax"><div class="n">Total cost</div><div class="t">Buy the box you need today. <b>Grow with a card</b>, not a forklift</div></div>
     </div>
     <div class="src box" style="margin-top:6px">
       <span class="t">Sources &amp; assumptions</span> Check Point Appliance Comparison Chart 2026 (9800 TP+TLS ~10 Gbps) · Decryption Digest TCO, June 2026 ($22K, 10G tier, 3-year) · NVIDIA BlueField-3 datasheet · NIST PQC FIPS 203/204/205 · Check Point AI Factory Firewall PR · <b>Assumptions:</b> demand starts at 8 Gbps (80% of the 9800 TLS ceiling) and compounds at the slider rate, an illustration, not a forecast of your traffic · ×4 (~40 Gbps) and the ~$15K card price are <b>PoC targets, not quotes</b> · over-provision = 4× $22K on day 0, the Maestro-equivalent stack that matches ×4 in 4RU · forklift = $22K today + that same 4-box stack in the first year demand exceeds 10G, migration cost not priced · Capacity-on-demand = $22K + ~$15K in that same year · the card, post-quantum crypto and on-box AI are <b>roadmap, not shipping features</b>
@@ -868,11 +902,11 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
 <!-- ═══════════ 9 · PROOF ═══════════ -->
 <section class="slide" data-ch="4" id="s9">
   <div class="topbar"><div class="brand"><img src="checkpoint-logo.PNG" alt="CP"><span class="sep"></span><h2>Proof</h2></div>
-    <div class="tags"><span class="tag teal">Third-party tested</span><span class="tag pink">TCO</span><span class="tag purple">Interactive</span></div></div>
+    <div class="tags"><span class="tag teal">Third-party tested</span><span class="tag pink">On your terms</span><span class="tag purple">Interactive</span></div></div>
   <div class="rail"></div>
   <div class="body">
-    <div class="eyebrow">Don't take my word for it</div>
-    <h1 class="title">Validated. Deployed. <span class="hl">Proven.</span></h1>
+    <div class="eyebrow">Don't take our word for it</div>
+    <h1 class="title">Don't take our word for it. <span class="hl">Test it on your terms.</span></h1>
     <div class="s9grid">
       <div class="anc">
         <div class="k">Validated</div>
@@ -901,8 +935,8 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
       </div>
     </div>
     <div class="thread" style="margin-top:10px">
-      <div class="k">3<small>proof points</small></div><div class="sep"></div>
-      <div class="t">Third-party validated. Silicon already in production. <b>Half the TCO of the alternative with the same efficacy.</b></div>
+      <div class="k">Your<small>terms</small></div><div class="sep"></div>
+      <div class="t">Third-party validated. Silicon already in production. Half the TCO at the same efficacy. <b>Now test it on your traffic, under your rules.</b></div>
     </div>
     <div class="src box" style="margin-top:6px">
       <span class="t">Sources &amp; assumptions</span> <a href="https://cyberratings.org/research/" target="_blank">CyberRatings, Enterprise Firewall</a> · Decryption Digest TCO analysis, June 2026 · <a href="https://www.checkpoint.com/press-releases/check-point-redefines-ai-security-for-enterprises-with-ai-cloud-protect-powered-by-nvidia-bluefield/" target="_blank">Check Point AI Factory Firewall PR</a> · <b>Assumptions:</b> TCO = hardware list price + 3-year subscription at the 10 Gbps Threat Prevention tier, an analyst estimate (Check Point ~$22K, Fortinet ~$14K, Palo Alto ~$43K) · the per-10G view divides ($22K + ~$15K estimated card price) by the ×4 target, a <b>target, not a quote</b> · AI Factory Firewall is a different product on the same silicon family, its production status proves the silicon, not the perimeter card
@@ -915,32 +949,32 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
 <!-- ═══════════ 10 · CTA ═══════════ -->
 <section class="slide" data-ch="5" id="s10">
   <div class="topbar"><div class="brand"><img src="checkpoint-logo.PNG" alt="CP"><span class="sep"></span><h2>Your next step</h2></div>
-    <div class="tags"><span class="tag pink">30-day POC</span><span class="tag teal">Design partner</span><span class="tag purple">Appendix ready</span></div></div>
+    <div class="tags"><span class="tag pink">Proof of Value</span><span class="tag teal">Design partner</span><span class="tag purple">Appendix ready</span></div></div>
   <div class="rail"></div>
   <div class="body">
-    <div class="eyebrow">Your next step</div>
-    <h1 class="title">Prove it on your traffic. <span class="hl">30 days.</span></h1>
+    <div class="eyebrow">Proof of Value · 30 days</div>
+    <h1 class="title">Then make us <span class="hl">earn the decision</span>.</h1>
     <div class="steps">
       <div class="stp"><div class="wk">Week 1</div><h3>Baseline your reality</h3><p>A Quantum 9800 in monitor mode on a span of your real traffic. We measure your <b>encrypted share, threat mix and true inspection load</b>, not a lab profile.</p>
         <div class="row"><div class="b"><div class="v">1RU</div><div class="l">in your rack</div></div><div class="b"><div class="v">0</div><div class="l">policy changes</div></div></div></div>
-      <div class="stp p"><div class="wk">Weeks 2 to 3</div><h3>Full inspection, full TLS</h3><p>Every engine on, TLS inspection on, <b>on your traffic</b>. You see block rate, throughput and latency side by side with what you run today.</p>
-        <div class="row"><div class="b"><div class="v">100%</div><div class="l">TLS inspected</div></div><div class="b"><div class="v">99%+</div><div class="l">block rate to verify</div></div></div></div>
-      <div class="stp t"><div class="wk">Week 4</div><h3>Map your 3-year path</h3><p>Sizing today, Maestro scale-out when you need it, and a seat in the <b>DPU design-partner program</b>: early access to the card, your requirements in the design.</p>
+      <div class="stp p"><div class="wk">Weeks 2 to 3</div><h3>Full inspection, then fail a member</h3><p>Every engine on, TLS on, <b>your policy on your traffic</b>. Then fail the Active gateway on purpose. The Standby must take over with live sessions.</p>
+        <div class="row"><div class="b"><div class="v">100%</div><div class="l">TLS inspected</div></div><div class="b"><div class="v">HA</div><div class="l">fail a member, on purpose</div></div></div></div>
+      <div class="stp t"><div class="wk">Week 4</div><h3>You score it. We earn it, or not.</h3><p>Sizing today, Maestro when you need it, and a seat in the <b>DPU design-partner program</b>. You keep the scorecard. We keep the box only if we won.</p>
         <div class="row"><div class="b"><div class="v">3 yr</div><div class="l">upgrade path</div></div><div class="b"><div class="v">×4</div><div class="l">target, in the same box</div></div></div></div>
     </div>
     <div class="dm">
       <div class="h y">What you get</div><div class="h n">What we ask</div>
-      <div class="y">Your own numbers on your own traffic: encrypted share, block rate, throughput with everything on</div><div class="n">A span port or a tap, and one network engineer for a half-day of setup</div>
+      <div class="y">Your numbers on your traffic: encrypted share, block rate, throughput with everything on</div><div class="n">A span port or a tap, and one network engineer for a half-day of setup</div>
+      <div class="y">A failover you watch: pull the cable or power off Active, Standby takes the sessions</div><div class="n">A change window to fail a member on purpose, on a pair you control</div>
       <div class="y">A 3-year capacity plan on the hardware you evaluate, with the card path priced as an option</div><div class="n">A 45-minute readout with your security and network leads at the end of week 4</div>
-      <div class="y">Early access to the DPU card and a voice in what ships</div><div class="n">Design-partner feedback on one PoC build, under NDA</div>
     </div>
     <div class="bigask">
       <div class="v">30<small>days</small></div>
-      <div class="t">You keep the box. <b>We'll show you how far it goes.</b><br>If the numbers on your traffic do not beat what you run today, you have lost a span port for a month. If they do, you have your next three years of perimeter planned.</div>
+      <div class="t">You set the pass/fail. Full inspection, your policy, a gateway failed on purpose. <b>Then make us earn the decision.</b><br>If the numbers on your traffic do not beat what you run today, you have lost a span port for a month. If they do, you have your next three years of perimeter planned.</div>
     </div>
     <div class="apx"><span class="lbl">Ready if asked</span><button data-go="10"><b>A1</b>vs Fortinet / Palo Alto</button><button data-go="11"><b>A2</b>Prove the TLS numbers</button><button data-go="12"><b>A3</b>Migration</button><button data-go="13"><b>A4</b>Aren't you more expensive?</button><button data-go="14"><b>A5</b>NVIDIA lock-in?</button><button data-go="15"><b>A6</b>When is the card available?</button><button data-go="16"><b>A7</b>Compliance</button></div>
     <div class="src box" style="margin-top:6px">
-      <span class="t">Sources &amp; assumptions</span> Quantum 9000 Series page · Check Point Appliance Comparison Chart 2026 · internal roadmap proposal (Session 1) · <b>Assumptions:</b> the 30-day plan is a standard POC scope, timing depends on your change windows · the design-partner program is a <b>proposed FY27 program</b>, not a published offer · ×4 is the PoC target from the previous slides, not a commitment · 99%+ is the CyberRatings figure to be re-verified on your traffic
+      <span class="t">Sources &amp; assumptions</span> Quantum 9000 Series page · Check Point Appliance Comparison Chart 2026 · internal roadmap proposal (Session 1) · <b>Assumptions:</b> the 30-day plan is a standard Proof of Value scope, timing depends on your change windows · failover is an Active/Standby ClusterXL pair of two 1RU appliances, not a 2RU chassis · the design-partner program is a <b>proposed FY27 program</b>, not a published offer · ×4 is the PoC target from the previous slides, not a commitment · 99%+ is the CyberRatings figure to be re-verified on your traffic
     </div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
@@ -954,13 +988,14 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
   <div class="rail"></div>
   <div class="body">
     <div class="eyebrow">Appendix · ready if asked</div>
-    <h1 class="title">Same tier on efficacy. <span class="hl">Ahead on density, latency and management.</span></h1>
+    <h1 class="title">Same tier on efficacy. <span class="hl">Ahead on density, HA footprint and management.</span></h1>
     <div class="card white" style="flex:0 0 auto">
       <table class="tb">
         <thead><tr><th>Per box, normalized where noted</th><th>Check Point 9800</th><th>Check Point 9800 + DPU card</th><th>Fortinet FortiGate 6500F</th><th>Palo Alto PA-5450</th></tr></thead>
         <tbody>
-          <tr><td>Form factor</td><td class="n win">1RU</td><td class="n win">1RU</td><td class="n">3RU</td><td class="n">5U</td></tr>
-          <tr><td>Full TP + TLS, per rack unit<small>the number the rack pays for</small></td><td class="n lose">~10 Gbps</td><td class="n tgt">~40 Gbps <small>PoC target</small></td><td class="n">~17 Gbps <small>~50G ÷ 3</small></td><td class="n">~18 Gbps <small>~90G ÷ 5</small></td></tr>
+          <tr><td>Form factor, one appliance</td><td class="n win">1RU</td><td class="n win">1RU</td><td class="n">3RU</td><td class="n">5U</td></tr>
+          <tr><td>HA pair footprint<small>Active / Standby · two appliances, not a taller chassis</small></td><td class="n win">2RU</td><td class="n win">2RU</td><td class="n lose">6RU</td><td class="n lose">10U</td></tr>
+          <tr><td>Full TP + TLS, per 1RU box<small>the number the rack pays for, per appliance</small></td><td class="n lose">~10 Gbps</td><td class="n tgt">~40 Gbps <small>PoC target</small></td><td class="n">~17 Gbps <small>~50G ÷ 3</small></td><td class="n">~18 Gbps <small>~90G ÷ 5</small></td></tr>
           <tr><td>Independent block rate<small>CyberRatings</small></td><td class="n win">99%+</td><td class="n win">99%+</td><td class="n lose">~96%</td><td class="n win">99%+</td></tr>
           <tr><td>Latency<small>matters for trading, OT, real-time; not for web or ERP</small></td><td class="n win">1.85 μs</td><td class="n win">1.85 μs</td><td class="n">4.8 μs</td><td class="n">~5 μs</td></tr>
           <tr><td>Management</td><td class="win">SmartConsole: one console, all domains</td><td class="win">Unchanged</td><td>FortiManager + FortiAnalyzer</td><td>Panorama + Cortex</td></tr>
@@ -970,11 +1005,11 @@ table.tb small{display:block;font-size:9.5px;color:var(--light);font-weight:600;
       </table>
     </div>
     <div class="thread" style="margin-top:10px">
-      <div class="k">1RU<small>vs 3RU · 5U</small></div><div class="sep"></div>
-      <div class="t">Per box, Fortinet and Palo Alto post bigger Threat Prevention numbers in bigger boxes. <b>Per rack unit with TLS on, the 9800 with the card leads, at a higher block rate than Fortinet.</b></div>
+      <div class="k">2RU<small>vs 6RU · 10U</small></div><div class="sep"></div>
+      <div class="t">A protected site is a pair. Two 1RU appliances, Active and Standby — <b>not a 2RU chassis</b>. Fortinet's pair is 6RU. Palo Alto's is 10U. Per 1RU with TLS on, the 9800 with the card leads.</div>
     </div>
     <div class="src box" style="margin-top:6px">
-      <span class="t">Sources &amp; assumptions</span> Check Point Appliance Comparison Chart 2026 · FortiGate 6500F datasheet · PA-5450 datasheet · CyberRatings · <b>Assumptions:</b> this is <b>not apples-to-apples on form factor</b> (1RU vs 3RU vs 5U), so throughput is normalized per rack unit and stated per box in the sub-labels · competitor TP + TLS is estimated at ~50% of their published Threat Prevention (6500F 100G, PA-5450 189G), Check Point's own TLS figure is used as published · "+ DPU" values are PoC targets · latency is a datasheet figure and a selling point only for latency-sensitive verticals
+      <span class="t">Sources &amp; assumptions</span> Check Point Appliance Comparison Chart 2026 · FortiGate 6500F datasheet · PA-5450 datasheet · CyberRatings · <b>Assumptions:</b> this is <b>not apples-to-apples on form factor</b> (1RU vs 3RU vs 5U), so throughput is normalized per 1RU of a single appliance and stated per box in the sub-labels · HA footprint is two appliances in Active/Standby (2×1RU = 2RU, 2×3RU = 6RU, 2×5U = 10U), not a 2RU chassis and not an Active/Active load-sharing pair · competitor TP + TLS is estimated at ~50% of their published Threat Prevention (6500F 100G, PA-5450 189G), Check Point's own TLS figure is used as published · "+ DPU" values are PoC targets · latency is a datasheet figure and a selling point only for latency-sensitive verticals
     </div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
