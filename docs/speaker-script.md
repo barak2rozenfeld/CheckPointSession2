@@ -163,24 +163,27 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 **Say:**
 "Option one - over-provision up front: four boxes on day one, about 88 thousand dollars, with half the iron sitting idle. Option two - ride the 9800 until it hits the wall, then replace it: about 110 thousand, and you pay twice plus you go through a migration. Option three, and this is my proposal - add the card: about 37 thousand dollars, target. Same rack, same console, same contract - and there is always a way back."
 
+**If asked "are these real prices?":**
+"They are illustrative planning figures, not quotes - the point is four boxes versus one card. Your real 9800 and card pricing come from your Check Point quote, and we confirm it in the PoC."
+
 **Land:**
 "Same forty gigabits. Only the card keeps the rack, the console, the contract - and a way back."
 
 ---
 
-## 12 - Cost per inspected gigabit: "Beyond the gigabit, you still win"
+## 12 - Independent security effectiveness: "Lower cost, independently-proven security"
 
 **Open:**
-"Now let's talk money the right way. Stop pricing the box - price the work that actually gets inspected."
+"And here is the part that matters most: the saving does not cost you security. This is not our lab - it is an independent test."
 
 **Say:**
-"If you take the three-year cost, and divide it by every ten gigabits of full inspection that actually runs - here is the picture. The 9800 with the card comes out at about 9.3 thousand dollars. Fortinet about 14 thousand. The 9800 today, without the card, about 22 thousand. Cisco about 30 thousand. And Palo Alto about 43 thousand. I want to be fair with you: these are analyst estimates, normalized to a per-box cost at the ten-gig tier - not quotes. But the direction is very clear."
+"CyberRatings, with NSS Labs, ran their November 2025 enterprise firewall test - exploits, malware, and critically evasion techniques, all over encrypted traffic. Check Point passed on its first submission, with a Security Effectiveness of 99.6 percent - a Recommended rating. Now look at the others: Cisco scored 57 percent - a Caution. Palo Alto and Fortinet actually failed common evasions on the first test - 46 and 79 percent - and only reached a passing score after shipping emergency patches. And the key point for you: the card offloads these exact same engines, so that 99.6 percent holds even at four times the reach."
 
-**If asked "where do the numbers come from?":**
-"The Decryption Digest 2026 pricing guide, combined with the vendors' datasheets - all linked in the sources at the bottom of the slide."
+**If asked "were these the same models as in your table?":**
+"The tested units were smaller models, but Security Effectiveness is a property of the shared software and ThreatCloud AI - the same intelligence that runs on your 9800. We re-verify it on your own traffic in the PoC."
 
 **Land:**
-"The chart is the money. But the win is also prevention, the rack, the console - and no forklift."
+"Independent, not our lab. Check Point passed first time - and the card keeps that score at four times the reach."
 
 ---
 

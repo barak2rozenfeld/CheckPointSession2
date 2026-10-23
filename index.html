@@ -827,41 +827,40 @@ h1.title .hl{color:var(--primary);}
       <div class="k">$37K<small>vs $88K / $110K</small></div><div class="sep"></div>
       <div class="t">Same ~40 Gbps. <b>Only the card keeps the rack, the console, the contract, and a way back.</b></div>
     </div>
-    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> <b>Pricing:</b> <a href="https://www.decryptiondigest.com/blog/ngfw-pricing-enterprise-cost-guide-2026" target="_blank">Decryption Digest NGFW pricing &amp; 3-yr TCO guide, 2026</a> (9800 ~$22K at the 10G tier) · <a href="https://docs.nvidia.com/networking/display/bluefield3dpu" target="_blank">NVIDIA BlueField-3 datasheet</a> · <b>Assumptions:</b> the $22K base is the analyst 3-year per-box estimate at the 10G tier, not a vendor quote · over-provision = 4 × $22K on day 0 · forklift = $22K today plus the 4-box stack when demand passes 10G, migration not priced · card path = $22K already spent plus ~$15K card · the <b>~$15K card price and the ×4 target are PoC targets, not quotes</b>, your numbers will differ.</div>
+    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> <a href="https://docs.nvidia.com/networking/display/bluefield3dpu" target="_blank">NVIDIA BlueField-3 datasheet</a> · <b>Illustrative figures, not quotes.</b> The dollar amounts are a planning illustration: a ~$22K-class 3-year cost per 9800 at the 10G tier and a PoC-target card of ~$15K · over-provision = four boxes on day 0; forklift = the 9800 today plus a later replacement stack and migration; card = the 9800 you own plus one card · <b>real 9800 and card pricing come from your Check Point quote and are confirmed in the Proof of Value</b> · the point is four boxes versus one card, not a published price list.</div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
   <div class="footer"><span class="c">Check Point Software Technologies · Confidential</span><span class="n">Barak Rozenfeld · Session 2</span></div>
 </section>
 
-<!-- ══ 12 · COST PER INSPECTED GIG ══ -->
+<!-- ══ 12 · INDEPENDENT SECURITY EFFECTIVENESS ══ -->
 <section class="slide" data-ch="4" id="s12">
-  <div class="topbar"><div class="brand"><svg class="cplogo" viewBox="0 0 235.89999 49.558311" role="img" aria-label="Check Point"><use href="#cp-white"/></svg><span class="sep"></span><h2>Cost per inspected gigabit</h2></div>
-    <div class="tags"><span class="tag pink">TCO</span><span class="tag purple">The number that matters</span></div></div>
+  <div class="topbar"><div class="brand"><svg class="cplogo" viewBox="0 0 235.89999 49.558311" role="img" aria-label="Check Point"><use href="#cp-white"/></svg><span class="sep"></span><h2>Independent security effectiveness</h2></div>
+    <div class="tags"><span class="tag teal">Independent</span><span class="tag purple">CyberRatings 2025</span></div></div>
   <div class="rail"></div>
   <div class="body">
-    <div class="eyebrow">Stop pricing the box, price the work</div>
-    <h1 class="title">Beyond the gigabit, <span class="hl">you still win</span></h1>
+    <div class="eyebrow">The saving does not cost you security</div>
+    <h1 class="title">Lower cost, <span class="hl">independently-proven security</span></h1>
     <div class="cpgrid">
       <div class="card">
-        <div class="kq">3-year cost per 10 Gbps of TP + TLS actually inspected</div>
+        <div class="kq">Security Effectiveness, independent test &mdash; CyberRatings / NSS, Nov 2025</div>
         <div class="bars">
-          <div class="bar cpd" style="--w:26%"><div class="nm">9800 + card<small>per 10G inspected · target</small></div><div class="trk"><i></i></div><div class="v"><span data-count="9.3" data-dec="1" data-prefix="$" data-suffix="K">$9.3K</span></div></div>
-          <div class="bar ft" style="--w:40%"><div class="nm">Fortinet<small>3-yr, per box at 10G tier</small></div><div class="trk"><i></i></div><div class="v"><span data-count="14" data-prefix="$" data-suffix="K">$14K</span></div></div>
-          <div class="bar cp0" style="--w:61%"><div class="nm">9800 today<small>3-yr, per box at 10G tier</small></div><div class="trk"><i></i></div><div class="v"><span data-count="22" data-prefix="$" data-suffix="K">$22K</span></div></div>
-          <div class="bar ci" style="--w:70%"><div class="nm">Cisco<small>3-yr, per box at 10G tier</small></div><div class="trk"><i></i></div><div class="v"><span data-count="30" data-prefix="$" data-suffix="K">$30K</span></div></div>
-          <div class="bar pa" style="--w:100%"><div class="nm">Palo Alto<small>3-yr, per box at 10G tier</small></div><div class="trk"><i></i></div><div class="v"><span data-count="43" data-prefix="$" data-suffix="K">$43K</span></div></div>
+          <div class="bar cpd" style="--w:100%"><div class="nm">Check Point<small>passed on first submission</small></div><div class="trk"><i></i></div><div class="v"><span data-count="99.6" data-dec="1" data-suffix="%">99.6%</span></div></div>
+          <div class="bar ft" style="--w:99%"><div class="nm">Fortinet<small>99.2% only after an IPS patch</small></div><div class="trk"><i></i></div><div class="v"><span data-count="99.2" data-dec="1" data-suffix="%">99.2%</span></div></div>
+          <div class="bar pa" style="--w:96%"><div class="nm">Palo Alto<small>96.1% only after a PAN-OS patch</small></div><div class="trk"><i></i></div><div class="v"><span data-count="96.1" data-dec="1" data-suffix="%">96.1%</span></div></div>
+          <div class="bar ci" style="--w:57%"><div class="nm">Cisco<small>Caution, not retested</small></div><div class="trk"><i></i></div><div class="v"><span data-count="57.3" data-dec="1" data-suffix="%">57.3%</span></div></div>
         </div>
       </div>
       <div class="facts">
-        <div class="card accent g" style="padding:12px 14px"><h3 style="font-size:15px">Your advantage</h3><p><span class="adv">99%+ prevention</span> in 1RU, a 2RU pair, same SmartConsole and contract. The next engine is a card, not a chassis. Per 10G inspected, about <b>$9.3K</b>.</p></div>
-        <div class="card accent a" style="padding:12px 14px"><h3 style="font-size:15px">Their disadvantage</h3><p><b>Fortinet:</b> ~96%, 3RU box, 6RU pair, fixed ASIC. <b>Palo Alto:</b> prevention ties, then a 5U chassis and a 10U pair. <b>Cisco:</b> ~97%, 1RU, and the next engine is still a new box.</p></div>
+        <div class="card accent g" style="padding:12px 14px"><h3 style="font-size:15px">Your advantage</h3><p>Check Point earned <span class="adv">Recommended at 99.6%</span> on its first submission. The card offloads the <b>same engines</b>, so the score holds at ~4&times; the reach.</p></div>
+        <div class="card accent a" style="padding:12px 14px"><h3 style="font-size:15px">Their reality</h3><p><b>Cisco:</b> 57.3%, a Caution rating. <b>Palo Alto</b> and <b>Fortinet</b> failed common evasions on first test (46% and 79%) and reached Recommended only after emergency patches.</p></div>
       </div>
     </div>
     <div class="thread">
-      <div class="k">$9.3K<small>per 10G · target</small></div><div class="sep"></div>
-      <div class="t">The chart is the money. <b>The win is also prevention, the rack, the console, and no forklift.</b></div>
+      <div class="k">99.6%<small>first submission</small></div><div class="sep"></div>
+      <div class="t">Independent, not our lab. <b>Check Point passed first time, and the card keeps that score at ~4&times; the reach.</b></div>
     </div>
-    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> <b>Pricing:</b> <a href="https://www.decryptiondigest.com/blog/ngfw-pricing-enterprise-cost-guide-2026" target="_blank">Decryption Digest NGFW pricing &amp; 3-yr TCO guide, 2026</a> (<a href="https://www.decryptiondigest.com/ngfw-cost-estimator" target="_blank">cost estimator</a>) · <a href="https://cyberratings.org/research/" target="_blank">CyberRatings</a> · <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Appliance Comparison Chart 2026</a> · <a href="https://docs.fortinet.com/document/fortigate/8.0.0/hardware-acceleration/750811/fortigate-6000f-series" target="_blank">FortiGate 6500F</a>, <a href="https://www.paloaltonetworks.com/resources/datasheets/pa-5450-series" target="_blank">PA-5450</a>, <a href="https://www.cisco.com/c/en/us/products/collateral/security/firewalls/secure-firewall-4200-ds.html" target="_blank">Cisco Secure Firewall 4225</a> datasheets · <b>Assumptions:</b> the dollar figures are <b>analyst estimates</b> from the Decryption Digest pricing guide, <b>normalized to a 3-year cost per box at the 10G inspected tier</b>, not vendor quotes · $9.3K divides ($22K + ~$15K card) by the ×4 target, <b>a target, not a quote</b> · block rate and form factor match appendix A1, not one lab score · a vendor change replaces the console and the policy, the usual cost of a platform move, not a timed study.</div>
+    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> <a href="https://cyberratings.org/resources/2025-q4-enterprise-firewall-report-comparative-report/" target="_blank">CyberRatings / NSS Labs Q4 2025 Enterprise Firewall Comparative Report</a> (Nov 5, 2025) &amp; <a href="https://cyberratings.org/cyberratings-org-and-nss-labs-announce-follow-on-enterprise-firewall-results/" target="_blank">Follow-On results</a> (Nov 25, 2025) · <b>Assumptions:</b> Security Effectiveness measures exploit, malware and evasion resistance over encrypted traffic, tested by NSS Labs · tested models were CP-CGS-9300, FortiGate-200G, Palo Alto PA-1410 and Cisco Firepower 2130 &mdash; effectiveness is a property of the shared software and ThreatCloud AI that also runs on your 9800 · Fortinet (79% to 99%) and Palo Alto (46% to 96%) reached Recommended only after post-test patches; Cisco (57%) was not retested · the card offloads the same engines, re-verified on your traffic in the Proof of Value.</div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
   <div class="footer"><span class="c">Check Point Software Technologies · Confidential</span><span class="n">Barak Rozenfeld · Session 2</span></div>
@@ -990,7 +989,7 @@ h1.title .hl{color:var(--primary);}
           <tr><td>Form factor, one appliance</td><td class="n cp win">1RU</td><td class="n cp win">1RU</td><td class="n">3RU</td><td class="n">5U</td><td class="n">1RU</td></tr>
           <tr><td>HA pair footprint</td><td class="n cp win">2RU</td><td class="n cp win">2RU</td><td class="n lose">6RU</td><td class="n lose">10U</td><td class="n">2RU</td></tr>
           <tr><td>Full TP + TLS, per 1RU box</td><td class="n cp lose">~10 Gbps</td><td class="n cp tgt">~40 Gbps</td><td class="n">~17 Gbps</td><td class="n">~18 Gbps</td><td class="n">~20 Gbps</td></tr>
-          <tr><td>Independent block rate</td><td class="n cp win">99%+</td><td class="n cp win">99%+</td><td class="n lose">~96%</td><td class="n win">99%+</td><td class="n">~97%</td></tr>
+          <tr><td>Security effectiveness (CyberRatings 2025)</td><td class="n cp win">99.6%</td><td class="n cp win">99.6%</td><td class="n">99.2%*</td><td class="n">96.1%*</td><td class="n lose">57.3%</td></tr>
           <tr><td>Upgrade path for more</td><td class="cp">Maestro</td><td class="cp win">A card, or Maestro</td><td class="lose">New box (fixed ASIC)</td><td class="lose">New chassis / cards</td><td class="lose">New box (fixed ASIC)</td></tr>
           <tr><td>Management and policy</td><td class="cp win">SmartConsole stays</td><td class="cp win">SmartConsole stays</td><td class="lose">New console if you leave</td><td class="lose">New console if you leave</td><td class="lose">New console if you leave</td></tr>
           <tr><td>Migration to get there</td><td class="cp win">None, you own it</td><td class="cp win">Additive card</td><td class="lose">Platform cutover</td><td class="lose">Platform cutover</td><td class="lose">Platform cutover</td></tr>
@@ -1001,7 +1000,7 @@ h1.title .hl{color:var(--primary);}
       <div class="k">2RU<small>vs 6RU · 10U</small></div><div class="sep"></div>
       <div class="t">Prevention is a tie or a win. <b>They lose on the rack, the console, and a new box every time the engine changes.</b></div>
     </div>
-    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> Check Point Appliance Comparison Chart 2026 · FortiGate 6500F, PA-5450 and Cisco Secure Firewall 4225 datasheets · CyberRatings · <b>Assumptions:</b> not apples-to-apples on form factor, so TP + TLS is normalized per 1RU of a single appliance · competitor TP + TLS is estimated at ~50% of published Threat Prevention · competitor block rates are illustrative from public testing, not a single normalized score · HA footprint is two appliances (2×1RU, 2×3RU, 2×5U, 2×1RU) · "+ card" values are PoC targets · "new console" and "platform cutover" are the usual cost of leaving Check Point, not a timed migration study.</div>
+    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> Check Point Appliance Comparison Chart 2026 · FortiGate 6500F, PA-5450 and Cisco Secure Firewall 4225 datasheets · CyberRatings · <b>Assumptions:</b> not apples-to-apples on form factor, so TP + TLS is normalized per 1RU of a single appliance · competitor TP + TLS is estimated at ~50% of published Threat Prevention · security effectiveness is the CyberRatings / NSS Q4 2025 result (Check Point 99.6% on first submission); * Fortinet (79% to 99%) and Palo Alto (46% to 96%) reached Recommended only after post-test patches, Cisco (57%) was not retested; tested models share the software and ThreatCloud AI that run on the 9800 · HA footprint is two appliances (2×1RU, 2×3RU, 2×5U, 2×1RU) · "+ card" values are PoC targets · "new console" and "platform cutover" are the usual cost of leaving Check Point, not a timed migration study.</div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
   <div class="footer"><span class="c">Check Point Software Technologies · Confidential</span><span class="n">Barak Rozenfeld · Session 2</span></div>
