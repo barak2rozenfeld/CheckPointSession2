@@ -733,13 +733,7 @@ h1.title .hl{color:var(--primary);}
         <div class="legend" style="margin-top:10px"><span class="chip have">You have today</span><span class="chip new">The new card</span><svg class="nvlogo" viewBox="0 0 164 30" role="img" aria-label="NVIDIA"><use href="#nv-white"/></svg></div>
       </div>
       <div class="cardcopy">
-        <div class="offload">
-          <h4>What moves onto the card</h4>
-          <div class="offrow"><span class="to">TLS decrypt / re-encrypt</span><span class="ar">→</span><span class="lab">onto dedicated silicon</span></div>
-          <div class="offrow"><span class="to">IPS · Anti-Virus · Anti-Bot</span><span class="ar">→</span><span class="lab">onto dedicated silicon</span></div>
-          <div class="offrow"><span class="from">Running on your Xeon today</span><span class="ar">→</span><span class="to">freed for policy &amp; apps</span></div>
-        </div>
-        <div class="card accent t" style="padding:14px 16px"><h3 style="font-size:16px">Why a card, not a new box</h3><p><span class="adv">Advantage.</span> Prevention moves to the DPU, so the CPU keeps policy, apps, and Copilot fast. <span class="dis">Their disadvantage:</span> a fixed ASIC, or a bigger chassis, turns the next engine into a forklift.</p></div>
+        <div class="card accent t" style="padding:16px 18px"><h3 style="font-size:16px">Why a card, not a new box</h3><p><span class="adv">Advantage.</span> The card drops into the slot you already own. Prevention moves to the DPU, so the CPU keeps policy, apps, and Copilot fast. <span class="dis">Their disadvantage:</span> a fixed ASIC, or a bigger chassis, turns the next engine into a forklift.</p><p style="margin-top:10px;color:var(--mid)">Exactly what moves onto the card — and the throughput it buys — is the next slide.</p></div>
       </div>
     </div>
     <div class="thread">
@@ -783,7 +777,7 @@ h1.title .hl{color:var(--primary);}
     </div>
     <div class="thread">
       <div class="k">~10 → ~40<small>Gbps · target</small></div><div class="sep"></div>
-      <div class="t">Grey is what you keep. <b>The gain is reach, a free CPU, and no forklift.</b></div>
+      <div class="t">Grey is what you keep. <b>About ×4 the reach — same box, same console, same contract.</b></div>
     </div>
     <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> NVIDIA BlueField-3 datasheet · Check Point Appliance Comparison Chart 2026 · <b>Assumptions:</b> ~40 Gbps is a <b>PoC target, not a shipping number</b> (the goal is roughly ×4 full TP + TLS) · it is ×4 and not ×10 because policy and App Control stay on the x86 · "unchanged" items are the design intent of the proposal, confirmed in the PoC.</div>
   </div>

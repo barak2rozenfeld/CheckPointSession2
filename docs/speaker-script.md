@@ -115,7 +115,7 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 "Here is the whole product, on one table. One card, into the spare I/O slot you already have."
 
 **Say:**
-"The card is an NVIDIA BlueField-3 DPU. What moves onto it: TLS decrypt and re-encrypt, and along with them the IPS, antivirus and anti-bot engines - all of them come off your Xeon and onto dedicated silicon. Why a card and not a new box? Because when prevention sits on flexible hardware, the next engine arrives as an update. With the competitors, prevention is burned into a fixed ASIC, or needs a bigger chassis - and then every new engine becomes a forklift. A card does not do that."
+"The card is an NVIDIA BlueField-3 DPU, and it drops into the spare I/O slot you already have - nothing else in the box changes. Why a card and not a new box? Because when prevention sits on flexible hardware, the next engine arrives as an update. With the competitors, prevention is burned into a fixed ASIC, or needs a bigger chassis - and then every new engine becomes a forklift. A card does not do that. On the next slide I will show you exactly what moves onto the card, and the throughput it buys."
 
 **If asked "isn't this just a NIC?":**
 "No. BlueField-3 has its own Arm cores, so it can run IPS - and later an AI engine - on the card, not just accelerate crypto like an ordinary network card."
@@ -132,10 +132,10 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 *(Toggle 'Today' and 'With the card'.)*
 
 **Say:**
-"Today, TLS, prevention and policy all share one CPU. And that is what pins you at around ten gigabits. Now add the card: prevention moves to run on the DPU, and the Xeon is freed back up for policy and apps. The target is about forty gigabits of full inspection - four times. And notice what does not change: same NIC, same Firewall ASIC, same chassis. The grey on screen is everything that stays exactly as it is."
+"Today, TLS, prevention and policy all share one CPU. And that is what pins you at around ten gigabits. Now add the card: TLS decrypt and re-encrypt, plus the IPS, antivirus and anti-bot engines, all move off the Xeon and onto the DPU's dedicated silicon - and the Xeon is freed back up for policy and apps. The target is about forty gigabits of full inspection - four times. And notice what does not change: same NIC, same Firewall ASIC, same chassis. The grey on screen is everything that stays exactly as it is."
 
 **Land:**
-"Grey is what you keep. The gain is reach, a free CPU, and no forklift."
+"Grey is what you keep. About four times the reach - same box, same console, same contract."
 
 ---
 
