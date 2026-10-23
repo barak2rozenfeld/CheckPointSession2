@@ -7,7 +7,7 @@ Per slide:
 - **If asked / Emphasis** - a ready answer to a common question (where relevant).
 - **Land** - the one line to leave the slide on.
 
-Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, only if asked.
+Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, only if asked.
 
 ---
 
@@ -83,23 +83,10 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 6 - Why Quantum, differentiator 1: "You catch what others miss"
+## 6 - Why Quantum, differentiator 1: "Fewer tools, fewer blind spots"
 
 **Open:**
-"Before I get to the product itself - three reasons your platform is worth protecting in the first place. The first: prevention."
-
-**Say:**
-"CyberRatings - an independent, third-party tester - puts Check Point at the top of the enterprise field, with a block rate of 99 percent and up. And it matters what the word 'prevention' means here: the box blocks the attack inline, as it passes through - it does not just raise an alert for someone to chase later. Behind that number is ThreatCloud AI - every block, at every customer worldwide, becomes protection for you. And the key point: the card runs those exact same engines, on the same intelligence. So the score does not move - you get more reach, with no trade on prevention."
-
-**Land:**
-"Speed never comes from turning inspection off. You stay at the top of the test - and with four times the reach."
-
----
-
-## 7 - Why Quantum, differentiator 2: "Fewer tools, fewer blind spots"
-
-**Open:**
-"The second reason: this is one platform, not a pile of tools you have to stitch together."
+"The first reason: this is one platform, not a pile of tools you have to stitch together."
 
 **Say:**
 "One console, one policy, one team. Think of it this way: every hand-off between two point products is a seam - and at every seam a policy can be missed, or a log never gets correlated with another. When everything sits on one platform, those seams simply disappear - across network, cloud, and users. And there is a bonus: Infinity AI Copilot helps draft and audit rules, so the same team manages more gateways without adding people. So this consolidation is not only cheaper - above all, it is fewer places for an attack to hide."
@@ -109,7 +96,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 8 - What we solve: "All your encrypted traffic, in the box you own"
+## 7 - What we solve: "All your encrypted traffic, in the box you own"
 
 **Open:**
 "So before I show the product - here is the promise, in one line."
@@ -122,7 +109,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 9 - What we are selling: "One card, one spare slot"
+## 8 - What we are selling: "One card, one spare slot"
 
 **Open:**
 "Here is the whole product, on one table. One card, into the spare I/O slot you already have."
@@ -138,7 +125,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 10 - Same box, before and after: "Same 9800, ~10 to ~40 Gbps"
+## 9 - Same box, before and after: "Same 9800, ~10 to ~40 Gbps"
 
 **Open:**
 "Let me show you side by side, on the exact same box. There is a toggle here - 'Today' versus 'With the card'."
@@ -152,7 +139,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 11 - Installing it: "No outage, your usual change window"
+## 10 - Installing it: "No outage, your usual change window"
 
 **Open:**
 "I know the real question is 'how painful is this to install'. The answer: it is exactly the maintenance window you already run."
@@ -168,7 +155,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 12 - Why it pays: "Three paths to ~40, one keeps the platform"
+## 11 - Why it pays: "Three paths to ~40, one keeps the platform"
 
 **Open:**
 "There are three ways to reach the same forty gigabits. Same result - very different cost. This is interactive, you can click each option."
@@ -181,7 +168,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 13 - Cost per inspected gigabit: "Beyond the gigabit, you still win"
+## 12 - Cost per inspected gigabit: "Beyond the gigabit, you still win"
 
 **Open:**
 "Now let's talk money the right way. Stop pricing the box - price the work that actually gets inspected."
@@ -197,7 +184,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 14 - The slot keeps giving: "Throughput today, upgrades on the same slot"
+## 13 - The slot keeps giving: "Throughput today, upgrades on the same slot"
 
 **Open:**
 "One more point that matters to a CISO thinking ahead: this investment is protected over time. And that is because it is programmable silicon, not a burned-in ASIC."
@@ -210,7 +197,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 15 - Can you trust the silicon: "Your engines, on silicon that already ships"
+## 14 - Can you trust the silicon: "Your engines, on silicon that already ships"
 
 **Open:**
 "A completely fair question you are probably asking in your head: is this proven, or a science project? I have three answers."
@@ -223,7 +210,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 16 - Straight answers: "The hard questions, answered first"
+## 15 - Straight answers: "The hard questions, answered first"
 
 **Open:**
 "I want to answer the hard questions before you even have to ask them. These are exactly the things I would check in your seat."
@@ -236,7 +223,7 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 
 ---
 
-## 17 - Your next step: "30 days, on your 9800"
+## 16 - Your next step: "30 days, on your 9800"
 
 **Open:**
 "So what is the actual ask? One thing: a 30-day Proof of Value, on your own pair, with no new hardware to ship."
