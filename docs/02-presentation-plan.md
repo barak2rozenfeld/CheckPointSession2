@@ -57,7 +57,7 @@ One prepared slide per likely CISO question, reachable in one click.
 | A2 | "Prove the TLS performance." | Numbers + test methodology (lab vs enterprise) |
 | A3 | "Migration to my existing stack?" | Zero rip-and-replace: same GAiA / SmartConsole, phased cutover |
 | A4 | "Aren't you more expensive than Fortinet?" | Real TCO story (consolidation, density, ×4 in same box) |
-| A5 | "NVIDIA lock-in?" | Abstraction layer -> Intel IPU / AMD Pensando gen 2 (from Session 1) |
+| A5 | "NVIDIA lock-in?" | You buy Check Point, not NVIDIA; offload is a switch, card is removable (reversibility, not an engine burned into a fixed ASIC) |
 | A6 | "Is the card available? When?" | Honest roadmap: FY27, PoC first, design-partner program |
 | A7 | "Compliance and certifications?" | FIPS 140-3, Common Criteria EAL, regulatory posture |
 

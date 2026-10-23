@@ -102,7 +102,7 @@
 - TCO, not sticker price: one 1RU box does the work of a competitor stack; ×4 in the same rack; power and cooling per RU; fewer tools to license and staff. Show the 3-year TCO [verify numbers].
 
 ### A5 · NVIDIA lock-in?
-- An abstraction layer in GAiA keeps the gateway silicon-agnostic; gen 2 can target Intel IPU or AMD Pensando. (Answer already framed in Session 1.)
+- You buy a Check Point product, not an NVIDIA one (policy/signatures/support from Check Point; DPU is a component). The offload is a switch and the card is removable: turn it off or pull it and the CPU enforces again. The real lock-in is an engine burned into a fixed ASIC, the opposite of a removable card. (Reversibility framing, not a multi-vendor promise.)
 
 ### A6 · Is the card available? When?
 - Honest: it is a roadmap proposal (FY27), validated first in a PoC, then a design-partner program. The 9000 you buy today is already best-in-class; the card is upside you help shape.
