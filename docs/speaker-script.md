@@ -158,16 +158,16 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 ## 11 - Why it pays: "Three paths to ~40, one keeps the platform"
 
 **Open:**
-"There are three ways to reach the same forty gigabits. Same result - very different cost. This is interactive, you can click each option."
+"You already own the 9800 HA pair - one box active at about ten gig, the other on standby for failover. There are three ways to take that to forty. Same result, very different cost. It is interactive, you can click each option."
 
 **Say:**
-"Option one - over-provision up front: four boxes on day one, about 88 thousand dollars, with half the iron sitting idle. Option two - ride the 9800 until it hits the wall, then replace it: about 110 thousand, and you pay twice plus you go through a migration. Option three, and this is my proposal - add the card: about 37 thousand dollars, target. Same rack, same console, same contract - and there is always a way back."
+"One thing first: the standby box does not add throughput - in Active/Standby only one box inspects, so two boxes give you ten gig plus resilience, not twenty. To reach forty you need four times the active power. Option one, scale out with Maestro: add gateways, orchestrated as one logical system - roughly 66 thousand and up, because you also buy and run two orchestrators, and it is a cluster redesign. Option two, forklift: replace the pair with a bigger forty-gig box - about 88 thousand and up, and you retire gear you already own, migrate the policy, and take a cutover. Option three, my proposal: add a card to each box in the pair - about 30 thousand for the two cards, and the rack, the console and the contract all stay exactly as they are."
 
 **If asked "are these real prices?":**
-"They are illustrative planning figures, not quotes - the point is four boxes versus one card. Your real 9800 and card pricing come from your Check Point quote, and we confirm it in the PoC."
+"They are illustrative planning figures, not quotes - the point is two cards versus standing up Maestro or doing a forklift. Your real pricing comes from your Check Point quote, and we confirm it in the PoC."
 
 **Land:**
-"Same forty gigabits. Only the card keeps the rack, the console, the contract - and a way back."
+"Same forty gigabits, on the pair you own. Only the card keeps the rack, the console, the contract - and a way back."
 
 ---
 
