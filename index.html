@@ -303,6 +303,9 @@ h1.title .hl{color:var(--primary);}
 .opt .foot{margin-top:10px;padding-top:9px;border-top:1px solid var(--border);font-size:12.5px;font-weight:700;color:var(--mid);}
 .opt.good .foot{color:var(--green);}
 .opt .rib{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--green);border-radius:5px;padding:2px 8px;margin-bottom:8px;align-self:flex-start;}
+.opt .calc{font-family:var(--font-num);font-size:12.5px;color:var(--light);margin:-4px 0 8px;}
+.assume{font-size:11.5px;color:var(--light);line-height:1.4;margin:9px 0 0;}
+.assume b{color:var(--mid);}
 .adv{color:var(--green);font-weight:800;}
 .dis{color:var(--primary);font-weight:800;}
 .cmpstrip{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px;flex-shrink:0;}
@@ -819,10 +822,11 @@ h1.title .hl{color:var(--primary);}
     <div class="eyebrow">Same ~40 Gbps, three very different costs</div>
     <h1 class="title">Three paths to ~40, <span class="hl">one keeps the platform</span></h1>
     <div class="opts">
-      <div class="opt" data-opt><div class="oh"><h3>Over-provision</h3><div class="cost"><span data-count="88" data-prefix="$" data-suffix="K">$88K</span><small>paid year 0</small></div></div><p>Four boxes on day one. <span class="dis">Disadvantage:</span> 4RU filled early, CapEx sitting idle, and the next engine is still a new stack.</p><div class="foot">Pay for iron you are not using</div></div>
-      <div class="opt" data-opt><div class="oh"><h3>Forklift later</h3><div class="cost"><span data-count="110" data-prefix="$" data-suffix="K">$110K</span><small>by year 2</small></div></div><p>Ride the 9800 into the wall, then replace it. <span class="dis">Disadvantage:</span> you pay twice, migrate the policy, and take a cutover.</p><div class="foot">A second project, not an upgrade</div></div>
-      <div class="opt good" data-opt><div class="rib">The proposal</div><div class="oh"><h3>Add the card</h3><div class="cost"><span class="pop" data-count="37" data-prefix="$" data-suffix="K">$37K</span><small>target</small></div></div><p>Keep the 9800. <span class="adv">Advantage:</span> same 1RU, same SmartConsole, same contract. Prevention moves to the card. Pull it, and you are back.</p><div class="foot">The platform stays. The reach grows.</div></div>
+      <div class="opt" data-opt><div class="oh"><h3>Over-provision</h3><div class="cost"><span data-count="88" data-prefix="$" data-suffix="K">$88K</span><small>paid year 0</small></div></div><div class="calc">4 &times; ~$22K</div><p>Four boxes on day one. <span class="dis">Disadvantage:</span> 4RU filled early, CapEx sitting idle, and the next engine is still a new stack.</p><div class="foot">Pay for iron you are not using</div></div>
+      <div class="opt" data-opt><div class="oh"><h3>Forklift later</h3><div class="cost"><span data-count="110" data-prefix="$" data-suffix="K">$110K</span><small>by year 2</small></div></div><div class="calc">~$22K now + replacement + migration</div><p>Ride the 9800 into the wall, then replace it. <span class="dis">Disadvantage:</span> you pay twice, migrate the policy, and take a cutover.</p><div class="foot">A second project, not an upgrade</div></div>
+      <div class="opt good" data-opt><div class="rib">The proposal</div><div class="oh"><h3>Add the card</h3><div class="cost"><span class="pop" data-count="37" data-prefix="$" data-suffix="K">$37K</span><small>target</small></div></div><div class="calc">~$22K spent + ~$15K card</div><p>Keep the 9800. <span class="adv">Advantage:</span> same 1RU, same SmartConsole, same contract. Prevention moves to the card. Pull it, and you are back.</p><div class="foot">The platform stays. The reach grows.</div></div>
     </div>
+    <div class="assume"><b>Base assumptions (illustrative, not quotes):</b> ~$22K per 9800 (3-year, 10G tier) and ~$15K per card (PoC target). Real pricing comes from your Check Point quote and the PoC. The point is four boxes versus one card.</div>
     <div class="thread">
       <div class="k">$37K<small>vs $88K / $110K</small></div><div class="sep"></div>
       <div class="t">Same ~40 Gbps. <b>Only the card keeps the rack, the console, the contract, and a way back.</b></div>
