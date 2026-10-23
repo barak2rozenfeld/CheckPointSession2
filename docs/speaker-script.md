@@ -46,10 +46,10 @@ Pace: slow, sentence by sentence. Main slides: 17. Appendix A1-A4 is backup, onl
 "A quick reminder about the platform itself - because everything I propose builds on it, not instead of it."
 
 **Say:**
-"The 9000 is one family that serves everything, from the small branch to the large headquarters. One operating system - GAiA. One management console - SmartConsole. And the same threat-intelligence engine, ThreatCloud AI, runs on every model. So you are already on AI-driven prevention - that is not something I need to sell you, it is already yours. The card I propose simply gives all of that more room to breathe, without touching any of those pieces."
+"The 9000 is one family that serves everything, from the small branch to the large headquarters. One operating system - GAiA. One management console - SmartConsole. And the same threat-intelligence engine, ThreatCloud AI, runs on every model. So you are already on best-in-class, AI-driven prevention - that is not something I need to sell you, it is already yours."
 
 **Land:**
-"You are already on AI-driven prevention. The card just gives it more room to run."
+"You are already running best-in-class, AI-driven prevention - that is the foundation to keep in mind."
 
 ---
 
