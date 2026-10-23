@@ -139,7 +139,7 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 
 ---
 
-## 10 - Installing it: "No outage, your usual change window"
+## 10 - Installing it: "No migration, just a maintenance window"
 
 **Open:**
 "I know the real question is 'how painful is this to install'. The answer: it is exactly the maintenance window you already run."
@@ -174,7 +174,7 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 
 ---
 
-## 12 - Independent security effectiveness: "Lower cost, independently-proven security"
+## 12 - Independent security effectiveness: "Same engines, independently proven"
 
 **Open:**
 "And here is the part that matters most: the saving does not cost you security. This is not our lab - it is an independent test."
