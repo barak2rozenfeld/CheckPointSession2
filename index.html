@@ -304,6 +304,9 @@ h1.title .hl{color:var(--primary);}
 .opt.good .foot{color:var(--green);}
 .opt .rib{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--green);border-radius:5px;padding:2px 8px;margin-bottom:8px;align-self:flex-start;}
 .opt .calc{font-family:var(--font-num);font-size:12.5px;color:var(--light);margin:-4px 0 8px;}
+.opt.dim{opacity:.55;background:var(--off);border-top-color:var(--have)!important;}
+.opt.dim .cost{color:var(--light)!important;}
+.na{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:var(--light);border-radius:5px;padding:2px 7px;margin-left:8px;vertical-align:middle;}
 .assume{font-size:11.5px;color:var(--light);line-height:1.4;margin:9px 0 0;}
 .assume b{color:var(--mid);}
 .adv{color:var(--green);font-weight:800;}
@@ -823,7 +826,7 @@ h1.title .hl{color:var(--primary);}
     <h1 class="title">Three paths to ~40, <span class="hl">one keeps the platform</span></h1>
     <div class="opts">
       <div class="opt" data-opt><div class="oh"><h3>Scale-out (Maestro)</h3><div class="cost"><span data-count="66" data-prefix="$" data-suffix="K+">$66K+</span><small>added gateways</small></div></div><div class="calc">~3 gateways + 2 orchestrators</div><p>Grow with Maestro: add gateways, orchestrated as one logical system. <span class="dis">Disadvantage:</span> more rack units, two orchestrators to buy and run, and a redesign of the cluster.</p><div class="foot">Real scale, heavy for a 10 to 40 jump</div></div>
-      <div class="opt" data-opt><div class="oh"><h3>Forklift (replace)</h3><div class="cost"><span data-count="88" data-prefix="$" data-suffix="K+">$88K+</span><small>new iron</small></div></div><div class="calc">new 40G pair, old pair retired</div><p>Replace the pair with a bigger 40G-class box. <span class="dis">Disadvantage:</span> you retire gear you already own, migrate the policy, and take a cutover.</p><div class="foot">A second project, not an upgrade</div></div>
+      <div class="opt dim" data-opt><div class="oh"><h3>Forklift (replace) <span class="na">not your case</span></h3><div class="cost"><span data-count="88" data-prefix="$" data-suffix="K+">$88K+</span><small>new iron</small></div></div><div class="calc">new 40G pair, old pair retired</div><p>Replace the whole pair with a bigger box, retire gear you own, and run a migration. This is only forced when a box <b>cannot be expanded</b>. The 9800 has the slot, so you skip it.</p><div class="foot">Not needed: the 9800 expands in place</div></div>
       <div class="opt good" data-opt><div class="rib">The proposal</div><div class="oh"><h3>Add the card</h3><div class="cost"><span class="pop" data-count="30" data-prefix="$" data-suffix="K">$30K</span><small>for the pair</small></div></div><div class="calc">2 &times; ~$15K (HA pair)</div><p>Keep the pair you own. <span class="adv">Advantage:</span> a card in each box, same 1RU, same SmartConsole, same contract. Pull them, and you are back.</p><div class="foot">The platform stays. The reach grows.</div></div>
     </div>
     <div class="assume"><b>You already own the 9800 HA pair</b> (~10G active: one box inspects, one is standby). Figures are the <b>incremental</b> cost to reach ~40G, illustrative, not quotes: ~$22K per gateway, ~$15K per card (one card per gateway, so two for the pair); Maestro adds orchestrators. Real pricing is in your Check Point quote and the PoC.</div>
