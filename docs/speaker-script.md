@@ -30,7 +30,7 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 "First, let me reflect back what you run, so we start from the same place."
 
 **Say:**
-"You have a 9800 pair in High Availability - one active, one on standby. Together they inspect about eight gigabits per second of encrypted traffic today, at a 99-percent-plus block rate. That is excellent - genuinely best-in-class prevention. But here is the quiet problem: you only have about two gigabits of headroom left before the ceiling. You are already close to the edge of what the box can do - exactly as traffic keeps climbing."
+"You have a 9800 pair in High Availability - one active, one on standby. Before the numbers, a quick word on what this box protects you against, in four layers: a firewall by address and port, application and URL identification, threat prevention which is IPS, anti-virus and anti-bot, and above them TLS, which opens the encrypted traffic so the rest can even inspect it. On the next slide I detail what each layer stops. Now the numbers: together they inspect about eight gigabits per second of encrypted traffic today, at a 99-percent-plus block rate. That is excellent - genuinely best-in-class prevention. But here is the quiet problem: you only have about two gigabits of headroom left before the ceiling. You are already close to the edge of what the box can do - exactly as traffic keeps climbing."
 
 **If asked "why eight gigabits?":**
 "That is an illustrative profile for a customer your size - we measure the real number together in the PoC. The principle holds: you are near the ceiling."

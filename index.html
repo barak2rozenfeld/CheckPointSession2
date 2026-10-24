@@ -151,6 +151,12 @@ h1.title .hl{color:var(--primary);}
 .profile .pname span{font-size:10.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--light);}
 .profile .ppills{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px;}
 .profile .ppills span{font-size:11.5px;font-weight:700;background:#fff;border:1px solid var(--border);border-radius:16px;padding:4px 11px;color:var(--mid);}
+.protlayers{display:flex;align-items:center;gap:12px;background:var(--off);border:1px solid var(--border);border-radius:10px;padding:8px 13px;margin-bottom:12px;flex-shrink:0;}
+.protlayers .lbl{font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--primary);white-space:nowrap;}
+.protlayers .chips{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.protlayers .pl{font-size:12px;font-weight:700;background:#fff;border:1px solid var(--border);border-radius:16px;padding:4px 11px;color:var(--text);}
+.protlayers .pl small{color:var(--light);font-weight:600;}
+.protlayers .ar{color:var(--light);font-weight:800;}
 .needhd{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:2px;}
 .facts{display:flex;flex-direction:column;justify-content:center;gap:10px;min-height:0;}
 .fact{background:#fff;border:1px solid var(--border);border-radius:10px;padding:11px 14px;display:flex;gap:14px;align-items:center;}
@@ -526,6 +532,18 @@ h1.title .hl{color:var(--primary);}
     <div class="eyebrow">The customer</div>
     <h1 class="title">Best-in-class today, <span class="hl">almost no room left</span></h1>
     <p class="lede">We are not here to re-sell the platform. Here is who they are, what they run, and what they need next.</p>
+    <div class="protlayers">
+      <span class="lbl">What you protect them with, four layers</span>
+      <div class="chips">
+        <span class="pl">Firewall <small>· address, port</small></span>
+        <span class="ar">›</span>
+        <span class="pl">App &amp; URL</span>
+        <span class="ar">›</span>
+        <span class="pl">Threat Prevention <small>· IPS, AV, Anti-Bot</small></span>
+        <span class="ar">›</span>
+        <span class="pl">TLS <small>· opens the encrypted</small></span>
+      </div>
+    </div>
     <div class="deploy">
       <div class="rackwrap">
         <div class="profile">
