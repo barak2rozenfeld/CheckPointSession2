@@ -40,16 +40,16 @@ Pace: slow, sentence by sentence. Main slides: 16. Appendix A1-A4 is backup, onl
 
 ---
 
-## 3 - The 9000 line you run on: "Top of the line, already on AI"
+## 3 - The 9000 line you run on: "Top of the line, and what it stops"
 
 **Open:**
-"A quick reminder about the platform itself - because everything I propose builds on it, not instead of it."
+"A quick reminder of the platform itself, and of what it already stops. Everything I propose builds on it."
 
 **Say:**
-"The 9000 is one family that serves everything, from the small branch to the large headquarters. One operating system - GAiA. One management console - SmartConsole. And the same threat-intelligence engine, ThreatCloud AI, runs on every model. So you are already on best-in-class, AI-driven prevention - that is not something I need to sell you, it is already yours."
+"The 9000 is one family, from the branch to headquarters. One operating system, one console, and the same four protections on every model. The firewall stops connections that should not be there, by address and port. App Control and URL catch a phishing site, or an app like Tor that a port rule cannot see. Threat Prevention inspects the content itself: an infected file, a known exploit, and a machine calling an attacker. That is IPS, Anti-Virus, and Anti-Bot. TLS opens what is hiding inside HTTPS. Leave it closed, and the three protections above it are blind. ThreatCloud AI feeds those threat engines, and Copilot helps draft and audit the policy. You are already on the 9800, the strongest model in the family."
 
 **Land:**
-"You are already running best-in-class, AI-driven prevention - that is the foundation to keep in mind."
+"You already have these protections. The card lets them see more encrypted traffic."
 
 ---
 

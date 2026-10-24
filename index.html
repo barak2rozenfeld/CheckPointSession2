@@ -356,6 +356,10 @@ h1.title .hl{color:var(--primary);}
 .aieng.b .k{color:var(--purple);}
 .aieng h3{font-size:16px;font-weight:800;margin-bottom:4px;}
 .aieng p{font-size:12.8px;color:var(--mid);line-height:1.45;} .aieng p b{color:var(--text);}
+.guard{display:flex;gap:12px;align-items:flex-start;padding:9px 12px;border-radius:10px;border:1px solid var(--border);background:#fff;}
+.guard .k{font-size:13px;font-weight:800;min-width:132px;line-height:1.3;}
+.guard p{font-size:13px;color:var(--mid);line-height:1.35;} .guard p b{color:var(--text);}
+.guardnote{font-size:12.5px;color:var(--mid);line-height:1.4;padding:2px 2px 0;} .guardnote b{color:var(--text);}
 
 /* ── risk (s15) ── */
 .riskgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;flex:1;min-height:0;}
@@ -558,9 +562,9 @@ h1.title .hl{color:var(--primary);}
     <div class="tags"><span class="tag teal">Quantum 9000</span><span class="tag purple">Powered by AI</span></div></div>
   <div class="rail"></div>
   <div class="body">
-    <div class="eyebrow">The platform, and the AI already inside it</div>
-    <h1 class="title">Top of the line, <span class="hl">already on AI</span></h1>
-    <p class="lede">One family from branch to headquarters: one OS in GAiA, one console in SmartConsole, the same ThreatCloud AI on every model.</p>
+    <div class="eyebrow">The platform, and what it already stops</div>
+    <h1 class="title">Top of the line, <span class="hl">and what it stops</span></h1>
+    <p class="lede">One family, one OS, one console. The same four protections on every model, including the 9800 you already run.</p>
     <div class="lineup">
       <div class="lineladder">
         <div class="lmodel"><div class="mn">9100 / 9200</div><div class="mu">Entry perimeter, 1U, one I/O expansion slot.</div><div class="mt">Branch</div></div>
@@ -569,16 +573,19 @@ h1.title .hl{color:var(--primary);}
         <div class="lmodel you"><div class="mn">9800</div><div class="mu">Flagship data center, 1U, two I/O expansion slots, up to 100G. A spare slot the card drops into.</div><div class="mt">You are here</div></div>
       </div>
       <div class="aiengines">
-        <div class="needhd">Two AI engines you already run</div>
-        <div class="aieng"><div class="k">Prevention · ThreatCloud AI</div><h3>AI decides what to block</h3><p>Every engine on the 9800 is fed by <b>ThreatCloud AI</b>, the intelligence behind the 99%+ block rate. More encrypted traffic to inspect means more work for exactly this engine.</p></div>
-        <div class="aieng b"><div class="k">Operations · Infinity AI Copilot</div><h3>AI runs the policy with you</h3><p><b>Infinity AI Copilot</b> drafts and audits rules, answers in plain language and automates change, so one team manages more gateways. Management and automation, not just a box.</p></div>
+        <div class="needhd">What it protects against</div>
+        <div class="guard"><div class="k">Firewall</div><p>Connections that should not be there. <b>Address and port only.</b></p></div>
+        <div class="guard"><div class="k">App and URL</div><p>A phishing site, or an app like Tor that a port rule cannot see.</p></div>
+        <div class="guard"><div class="k">Threat Prevention</div><p>An infected file, a known exploit, a machine calling an attacker. <b>IPS, Anti-Virus, Anti-Bot.</b></p></div>
+        <div class="guard"><div class="k">TLS</div><p>Malware hiding inside HTTPS. <b>Closed, the three above are blind.</b></p></div>
+        <p class="guardnote"><b>ThreatCloud AI</b> feeds those threat engines. <b>Copilot</b> drafts and audits the policy.</p>
       </div>
     </div>
     <div class="thread">
-      <div class="k">1 line<small>one console · one AI</small></div><div class="sep"></div>
-      <div class="t">You are on the strongest model in the family. <b>The card gives the AI engine you already trust far more encrypted traffic to work on.</b></div>
+      <div class="k">4<small>protections</small></div><div class="sep"></div>
+      <div class="t">You already run them on the 9800. <b>The card lets these same protections open more encrypted traffic.</b></div>
     </div>
-    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Appliance Comparison Chart 2026</a> · Quantum Force 9000 accessory guide (9700 / 9800: two I/O slots, 1U) · <a href="https://www.checkpoint.com/infinity/ai-copilot/" target="_blank">Infinity AI Copilot</a> · <a href="https://www.checkpoint.com/infinity/threatcloud-ai/" target="_blank">ThreatCloud AI</a> · <b>Assumptions:</b> every 9000 model carries at least one I/O slot; the card targets the 9700 / 9800 for their two slots and data-center headroom, a design assumption of the proposal · model tiers and use-cases are a simplified read of the published line · 99%+ is the CyberRatings block rate, ThreatCloud AI is the feeding intelligence, not a separate score.</div>
+    <div class="srcbox"><span class="tg">Sources &amp; assumptions</span> <a href="https://www.checkpoint.com/downloads/products/check-point-appliance-comparison-chart.pdf" target="_blank">Appliance Comparison Chart 2026</a> · Quantum Force 9000 accessory guide (9700 / 9800: two I/O slots, 1U) · <a href="https://www.checkpoint.com/infinity/threatcloud-ai/" target="_blank">ThreatCloud AI</a> · <a href="https://www.checkpoint.com/infinity/ai-copilot/" target="_blank">Infinity AI Copilot</a> · <b>Assumptions:</b> the four rows are a simplified read of the published Quantum stack (firewall, application and URL control, threat prevention, HTTPS inspection), not a new test · every 9000 model carries at least one I/O slot; the card targets the 9700 / 9800 for their two slots and data-center headroom, a design assumption of the proposal · model tiers are a simplified read of the published line.</div>
   </div>
   <div class="tristripe"><div class="a"></div><div class="b"></div><div class="c"></div></div>
   <div class="footer"><span class="c">Check Point Software Technologies · Confidential</span><span class="n">Barak Rozenfeld · Session 2</span></div>
